@@ -29,12 +29,12 @@
         nav li{
             list-style-type: none;
             margin-left: 20px;
-            border: 3px solid #5585b5;
+            border: 3px solid #5d7084;
             padding: 5px;
             border-radius: 5px;
         }
         nav li:hover{
-            box-shadow: 0 0 6px #4794e1;
+            box-shadow: 0 0 6px #789abd;
         }  
         
         nav h1{
@@ -64,7 +64,7 @@
         }
 
         .blogs a:hover h3{
-            color: #4794e1;
+            color: #7ca2c8;
         }
 
         .single {
@@ -78,13 +78,13 @@
             max-width: 60vw;
             background: #bbe4e9;
             border-radius: 6px;
-            box-shadow: 0 0 12px #47aaba;
+            box-shadow: 0 0 12px #639ba3;
         }
 
         .dt {
         max-width: 20vw;
         padding: 2px 3px;
-        box-shadow: 0 0 12px #47aaba;
+        box-shadow: 0 0 12px #6aa9b2;
         background: rgb(180, 209, 218);
         }
 
@@ -97,11 +97,11 @@
             right: 0;
             border-radius: 7px;
             padding: 5px;
-            box-shadow: 0 0 3px #5585b5;
+            box-shadow: 0 0 3px #738aa1;
         }
         .delete:hover {
             cursor: pointer;
-            box-shadow: 0 0 6px #5585b5;
+            box-shadow: 0 0 6px #637c95;
 
         }
 
@@ -136,7 +136,7 @@
             border: 0;
             font-size: 1.2em;
             cursor: pointer;
-            border: 3px solid #5585b5;
+            border: 3px solid #51667b;
             border-radius: 5px;
         }
 

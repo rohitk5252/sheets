@@ -16,13 +16,14 @@ mongoose.connect(process.env.MONGO_CONNECTION_URL)
     }))
     .catch((err)=> console.log(err)); 
 
-    // it will make sure to look for any requested files in views folder
+//   setting up the view engine EJS    // 
 app.set('view engine','ejs');
 
-
+// it will make sure to look for any requested files in views folder
 // middleware to serve static file (css files)
 app.use(express.static('public'));
 app.use(morgan('dev'));
+
 // middleware for post request, so the data coming from submit form can be parsed into an Object 
 app.use(express.urlencoded({extended:true}));
  
@@ -37,6 +38,7 @@ app.get('/about',(req,res)=>{
 
 // blogs routes 
 app.use('/blogs',blogRoutes);
+
 // 404 page
 app.use((req,res)=>{
     res.status(404).render('404' ,{title:'Not Found!!!'});
